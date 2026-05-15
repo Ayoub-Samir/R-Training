@@ -1,0 +1,27 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets and generated outputs
+data/
+outputs/
+results/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary experiment files
+H_local.csv
+tempCodeRunnerFile.py
