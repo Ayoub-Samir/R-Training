@@ -1,7 +1,6 @@
 [
   {
     "label_rate": 0.005,
-    "sample_seed": 72,
     "r_training_filter_cfg": {
       "hetero_w0": 0.15,
       "hetero_w1": 0.55,
@@ -26,11 +25,11 @@
       "conf_beta": 0.25,
       "selection_quantile": 0.05,
       "selection_mode": "all_after_quantile"
-    }
+    },
+    "ss": 72
   },
   {
     "label_rate": 0.01,
-    "sample_seed": 80,
     "r_training_filter_cfg": {
       "hetero_w0": 0.0,
       "hetero_w1": 0.5,
@@ -55,11 +54,11 @@
       "conf_beta": 0.3,
       "selection_quantile": 0.95,
       "selection_mode": "all_after_quantile"
-    }
+    },
+    "ss": 80
   },
   {
     "label_rate": 0.02,
-    "sample_seed": 160,
     "r_training_filter_cfg": {
       "hetero_w0": 0.35,
       "hetero_w1": 0.35,
@@ -84,11 +83,11 @@
       "conf_beta": 0.1,
       "selection_quantile": 0.8,
       "selection_mode": "top_t"
-    }
+    },
+    "ss": 160
   },
   {
     "label_rate": 0.03,
-    "sample_seed": 136,
     "r_training_filter_cfg": {
       "hetero_w0": 0.1,
       "hetero_w1": 0.4,
@@ -113,11 +112,11 @@
       "conf_beta": 0.15,
       "selection_quantile": 0.2,
       "selection_mode": "all_after_quantile"
-    }
+    },
+    "ss": 136
   },
   {
     "label_rate": 0.04,
-    "sample_seed": 79,
     "r_training_filter_cfg": {
       "hetero_w0": 0.15,
       "hetero_w1": 0.55,
@@ -142,11 +141,11 @@
       "conf_beta": 0.0,
       "selection_quantile": 0.05,
       "selection_mode": "top_t"
-    }
+    },
+    "ss": 79
   },
   {
     "label_rate": 0.05,
-    "sample_seed": 183,
     "r_training_filter_cfg": {
       "hetero_w0": 0.1,
       "hetero_w1": 0.4,
@@ -171,6 +170,7 @@
       "conf_beta": 0.2,
       "selection_quantile": 0.1,
       "selection_mode": "top_t"
-    }
+    },
+    "ss": 183
   }
 ]

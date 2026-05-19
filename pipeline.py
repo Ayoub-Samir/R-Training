@@ -44,7 +44,7 @@ label_rates = [0.005, 0.01, 0.02, 0.03, 0.04, 0.05]
 num_runs = 10
 train_seed = 0
 
-ADAPTIVE_FILTER_PARAMS_DIR = Path("tuned_params")
+ADAPTIVE_FILTER_PARAMS_DIR = Path("params")
 BASE_FILTER_SAMPLE_SEED = 42
 BASE_FILTER_NAME = "g_0"
 BASE_FILTER_DEGREE = 8
@@ -103,7 +103,7 @@ def get_adaptive_filter_entry(dataset_name, label_rate):
 
 
 def get_adaptive_filter_sample_seed(dataset_name, label_rate):
-    return int(get_adaptive_filter_entry(dataset_name, label_rate)["sample_seed"])
+    return int(get_adaptive_filter_entry(dataset_name, label_rate)["ss"])
 
 
 def get_adaptive_r_training_filter_cfg(dataset_name, label_rate):
