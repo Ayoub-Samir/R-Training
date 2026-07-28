@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  8 23:05:11 2024
-
-@author: musta
-"""
 
 from typing import Optional, Tuple
 import math
@@ -269,9 +264,6 @@ def j_polynomial_zeros ( nt, alpha, beta):
 #
 #    19 October 2023
 #
-#  Author:
-#
-#    Dr. Mustafa Coşkun
 #
 #  Parameters:
 #
